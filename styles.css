@@ -1,0 +1,61 @@
+/* GLOBAL RESET & FONTS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 98%);
+    padding: 2rem;
+  }
+  
+  /* GRID CONTAINER */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 2rem;
+  }
+  
+  /* LEFT SIDE */
+  .grid-left img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* RIGHT SIDE */
+  .grid-right h1 {
+    font-size: 2rem;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 1rem;
+  }
+  
+  .grid-right p {
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: hsl(245, 65%, 42%);
+  }
+  
